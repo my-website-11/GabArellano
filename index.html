@@ -1,158 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Website</title>
-  <style>
-    /* CSS styles go here */
-    body {
-      font-family: Arial, sans-serif, Brush Script MT;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-image: url('qwerty.png');
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      font-family: Brush Script MT;
-      font-size: 45px;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h2 {
-      color: red;
-    }
-
-
-    nav {
-      margin-top: 20px;
-      text-align: center;
-    }
-
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    nav ul li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-
-    nav ul li a {
-      color: black;
-      text-decoration: none;
-    }
-
-    section ul li a {
-      color: black;
-      text-decoration: none;
-    }
-
-    section {
-      padding: 40px;
-    }
-
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    /* Responsive styles */
-    @media (max-width: 768px) {
-      header {
-        font-size: 24px;
-      }
-
-      nav ul li {
-        color: black;
-        display: block;
-        margin: 10px 0;
-      }
-
-      section {
-        padding: 20px;
-      }
-    }
-  </style>
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Marquis Gabriel H. Arellano
-    </h1>
-  </header>
+    <header>
+      <center>
+        <nav>
+            <div class="container">
+                <div id="logo">
+                    <h1>(Shop Name)</h1>
+                    <br>
+                </div>
+                <form id="search-form">
+      <input type="text" id="search-bar" placeholder="Search on products">
+      <button type="submit">Search</button>
+               </form>
 
-  <nav>
-    <ul>
-      <li><a href="#about">Personal</a></li>
-      <li><a href="#address">Address</a></li>
-      <li><a href="#goal">My Goal</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#history">My History<br>In Coding</a></li>
-      <li><a href="#contacts">Contacts</a></li>
-    </ul>
-  </nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#address">Address</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+              </center>
+            </div>
+        </nav>
+    </header>
 
-  <section id="about">
-    <img src="background image1.jpg" alt="Profile Picture" style="float: left; margin-right: 10px; width: 150px; width: auto; height: 320px;">
-    <h2>Hi, I'm Marquis</h2>
-    <p>My full name is Marquis Gabriel Arellano,<br>I'm currently a grade 10 student in Talipan National Highschool.</p>
-  </section>
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to our Shop</h2>
+            <br>
+            <p>Enjoy a luxurious stay and delightful dining experience!</p>
+        </div>
+    </section>
 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <br>
+            <p>(information about your Shop)</p>
+        </div>
+    </section>
 
+    <section id="product">
+        <div class="container">
+            <h2>
+              Our Products
+            </h2>
+            <br>
+            <p>Check out our products.</p>
+            <center>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.ewIPWgQ3Hr91j6RAzqgnKAHaEK&pid=Api&P=0&h=180" alt="Dish 1">
+                    <h3>(Product 1/Brand Name)</h3>
+                    <h4>Color Available:</h4>
+                    <ul class="no-bullets">
+                      <li>Maroon</li>
+                      <li>White</li>
+                      <li>Black</li>
+                    </ul>
+                    <h4>Sizes Available:</h4>
+                    <ul class="no-bullets">
+                      <li>Small</li>
+                      <li>Meduim</li>
+                      <li>Large</li>
+                    </ul>
+                    <br>
+                    <h4>Price:</h4>
+                </div>
+                <div class="menu-item">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.kgjg8DmtaJ6HKFK76jTNlgHaEK&pid=Api&P=0&h=180" alt="Dish 2">
+                    <h3>(Product 2/Brand Name)</h3>
+                    <h4>Color Available:</h4>
+                    <ul class="no-bullets">
+                      <li>Maroon</li>
+                      <li>White</li>
+                      <li>Black</li>
+                    </ul>
+                    <h4>Sizes Available:</h4>
+                    <ul class="no-bullets">
+                      <li>Small</li>
+                      <li>Meduim</li>
+                      <li>Large</li>
+                    </ul>
+                    <br>
+                    <h4>Price:</h4>
+                </div>
+                <div class="menu-item">
+                    <img src="https://www.writermag.com/wp-content/uploads/2014/07/clothing.jpg" alt="Dish 3">
+                    <h3>(Product 3/Brand Name)</h3>
+                    <h4>Color Available:</h4>
+                    <ul class="no-bullets">
+                      <li>Maroon</li>
+                      <li>White</li>
+                      <li>Black</li>
+                    </ul>
+                    <h4>Sizes Available:</h4>
+                    <ul class="no-bullets">
+                      <li>Small</li>
+                      <li>Meduim</li>
+                      <li>Large</li>
+                    </ul>
+                    <br>
+                    <h4>Price:</h4>
+                    <br>
+                  </div>
+                    <div class="menu-item">
+                        <img src="https://i5.walmartimages.com/asr/3cd704d8-11f6-4a33-868c-cb7f9ea26408.5d6cb24ff1fd4b389f3638f6d04de752.jpeg" alt="Dish 3">
+                        <h3>(Product 4/Brand Name)</h3>
+                        <h4>Color Available:</h4>
+                        <ul class="no-bullets">
+                          <li>Maroon</li>
+                          <li>White</li>
+                          <li>Black</li>
+                        </ul>
+                        <h4>Sizes Available:</h4>
+                        <ul class="no-bullets">
+                          <li>Small</li>
+                          <li>Meduim</li>
+                          <li>Large</li>
+                        </ul>
+                        <br>
+                        <h4>Price:</h4>
+                      </div>
+                      <div class="menu-item">
+                          <img src="https://tse4.mm.bing.net/th?id=OIP._P6WHcsoWvC4yo4NQ8AsuQHaIk&pid=Api&P=0&h=180" alt="Dish 3">
+                          <h3>(Product 5/Brand Name)</h3>
+                          <h4>Color Available:</h4>
+                          <ul class="no-bullets">
+                            <li>Maroon</li>
+                            <li>White</li>
+                            <li>Black</li>
+                          </ul>
+                          <h4>Sizes Available:</h4>
+                          <ul class="no-bullets">
+                            <li>Small</li>
+                            <li>Meduim</li>
+                            <li>Large</li>
+                          </ul>
+                          <br>
+                          <h4>Price:</h4>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Dish 3">
+                            <h3>(Product 6/Brand Name)</h3>
+                            <h4>Color Available:</h4>
+                            <ul class="no-bullets">
+                              <li>Maroon</li>
+                              <li>White</li>
+                              <li>Black</li>
+                            </ul>
+                            <h4>Sizes Available:</h4>
+                            <ul class="no-bullets">
+                              <li>Small</li>
+                              <li>Meduim</li>
+                              <li>Large</li>
+                            </ul>
+                            <br>
+                            <h4>Price:</h4>
+                          </div>
+                  </center>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="address">
-    <h2>Address:</h2>
-    <p>Pagbilao, Quezon<br>Brgy Talipan<br>Krisanta Vill. Quezon Street<br>Phase 3 BLCK 17 LOT 16</p>
-  </section>
+    <section id="address">
+        <div class="container">
+            <h2>Visit our us at:</h2>
+            <br>
+            <p>ADRESS:</p>
+        </div>
+    </section>
 
-  <section id="goal">
-    <h2>My Goal:</h2>
-    <p>My goal is to help my family financially, since I am the oldest in my sibling at a young age at 16 I want to help them financially, because I'll enter collage in just 2 years. So I want to spend my 2 years in senior highschool preparing for my collage. Since I'll be taking Bachelor of Science in Information Technology I'll have many expenses like a personal laptop or desktop, external hard drive, USB flash drive, internet connection & many more. I really want to pursue BSIT since I want to explore the coding industry and it also has many oppurtinities to offer.</p>
-  </section>
+    <section id="contact">
+            <h2>Contact Us At:</h2>
+            <div class="container">
+            <ul>
+              <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+              <li><a href="https://twitter.com/home" target="_blank">Twitter</a></li>
+              <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+              <li><a href="https://www.tiktok.com/" target="_blank">TikTok</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank>">yourgmail@gmail.com</a></li>
+            </ul>
+    </section>
 
-  <section id="education">
-    <h2>Education:</h2>
-    <ul>
-      <li>Elementary 2000-2000: <mark>Pagbilao Central Elementary School</mark></li>
-      <li>Junior Highschool (Grade 7) 2000-2000: <mark>CVE Collages Incorporated</mark></li>
-      <li>Junior Highschool (Grade 8-10) 2000-2000: <mark>Talipan National Highschool</mark></li>
-    </ul>
-  </section>
-
-  <section id="history">
-    <h2>My History About Coding:</h2>
-    <p>I started coding in grade 10 because we have a subject Technical Vocational Education-Information Communication Technology (TLE-ICT) everytime when we're coding in our school's comlab I'm always amazed of what coding can do and also it's oppurtinity. So I did some research in web development on how it can help me financially, so I widen my knowlegde about coding by watching professional coders in youtube, asked assistance from my ICT teacher and I also asked assistance from my friends that knows how to code.</p>
-  </section>
-
-  <section id="contacts">
-    <h2>Contacts:</h2>
-    <ul>
-      <p>If you have any more questions feel free to message me on facebook or send me an email. I accept meetings through google meet in order to specify your personal needs and preferences in the website that you want, but of course we should schedule it first</p>
-      <li>Facebook: <a href="https://www.facebook.com/mar.quis.50115" target="_blank"><b>Marquis Gabriel Arellano</b></a></li>
-      <li>Gmail: <a href="https://mailto:gabarellano11@gmail.com" target="_blank"><b>gabarellano11@gmail.com</b></a></li>
-    </ul>
-  </section>
-
-  <!-- Rest of your code -->
-
-  <footer>
-    <p>&copy; 2023 Marquis Gabriel H. Arellano. All rights reserved.</p>
-  </footer>
+    <footer>
+        <div class="container">
+            <h3>&copy; 2023 (Shop Name). All rights reserved.</h3>
+        </div>
+    </footer>
 </body>
 </html>
